@@ -1,0 +1,58 @@
+:root {
+  /* Portfolio colors */
+  --color-forest: #17382f;
+  --color-ivory: #f4efe4;
+  --color-charcoal: #20201e;
+  --color-gold: #b69a64;
+  --color-white: #ffffff;
+
+  /* Text colors */
+  --color-text-primary: var(--color-charcoal);
+  --color-text-light: var(--color-ivory);
+
+  /* Spacing */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+  --space-7: 6rem;
+  --space-8: 8rem;
+  --space-9: 10rem;
+
+  /* Layout */
+  --page-width: 90rem;
+  --content-width: 80rem;
+  --page-padding: 5rem;
+  --grid-gap: 2rem;
+
+  /* Typography sizes */
+  --font-size-caption: 0.75rem;
+  --font-size-body: 1rem;
+  --font-size-small-heading: 1.5rem;
+  --font-size-heading: 3rem;
+  --font-size-display: clamp(4rem, 10vw, 10rem);
+
+  /* Line heights */
+  --line-height-tight: 0.95;
+  --line-height-heading: 1.05;
+  --line-height-body: 1.6;
+
+  /* Border radius */
+  --radius-none: 0;
+  --radius-small: 0.5rem;
+  --radius-medium: 1rem;
+
+  /* Motion */
+  --duration-fast: 180ms;
+  --duration-normal: 350ms;
+  --duration-slow: 700ms;
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Layering */
+  --z-base: 1;
+  --z-content: 10;
+  --z-navigation: 100;
+  --z-overlay: 1000;
+}
